@@ -7,7 +7,7 @@ import { groq } from 'next-sanity';
 import Link from 'next/link';
 import React from 'react'
 
-const page = async({ params }) => {
+const Page = async({ params }) => {
     const products = await client.fetch(groq`*[_type == "product"]`, {
         next: { revalidate: 30 },
       });
@@ -48,4 +48,4 @@ const page = async({ params }) => {
   )
 }
 
-export default page
+export default Page

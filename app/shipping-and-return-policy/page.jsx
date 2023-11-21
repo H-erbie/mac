@@ -1,7 +1,7 @@
 import MiniNav from "@/components/mini-nav";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   const miniLinks = [
     { text: "home", link: "/" },
     { text: "shipping & return policy", link: "" },
@@ -65,4 +65,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

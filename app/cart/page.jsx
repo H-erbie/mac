@@ -3,7 +3,7 @@ import  CartItems  from "@/components/cart-items"
 import  CartSummary  from "@/components/cart-summary"
 import MiniNav from '@/components/mini-nav';
 
-const page = () => {
+const Page = () => {
   
   const miniLinks = [
     { text: "home", link: "/" },
@@ -33,4 +33,4 @@ const page = () => {
   </div>  )
 }
 
-export default page
+export default Page

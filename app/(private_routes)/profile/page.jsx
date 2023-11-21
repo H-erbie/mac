@@ -9,7 +9,7 @@ import bcrypt from "bcryptjs";
 import { useRouter } from "next/navigation";
 import { Loader2 } from "lucide-react";
 
-const page = () => {
+const Page = () => {
 
   const router = useRouter();
   const [logoutIsLoading, setLogoutIsLoading] = useState(false);
@@ -298,4 +298,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

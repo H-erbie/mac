@@ -8,7 +8,7 @@ import { client } from '@/sanity/lib/client'
 import { groq } from 'next-sanity'
 import React from 'react'
 
-const page = async({params}) => {
+const Page = async({params}) => {
 
   const product = await client.fetch(groq`*[_type == "product" && slug.current == "${params.slug}"][0]`, {
     next: { revalidate: 30 },
@@ -42,4 +42,4 @@ const page = async({params}) => {
   )
 }
 
-export default page
+export default Page

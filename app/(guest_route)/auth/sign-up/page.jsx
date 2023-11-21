@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { Label } from "@/components/ui/label";
 import MiniNav from "@/components/mini-nav";
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
 
   const [userInfo, setUserInfo] = useState({
@@ -159,4 +159,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -10,7 +10,7 @@ import MiniNav from "@/components/mini-nav";
 import { Loader2 } from "lucide-react";
 import { NextResponse } from "next/server";
 
-const page = () => {
+const Page = () => {
   const [error, setError] = useState("");
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false)
@@ -114,6 +114,6 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
 

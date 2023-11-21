@@ -1,7 +1,7 @@
 import React from 'react'
 import { Phone } from 'lucide-react'
 import MiniNav from '@/components/mini-nav';
-const page = () => {
+const Page = () => {
     const miniLinks = [
         { text: "home", link: "/" },
         { text: "contact-us", link: "" },
@@ -18,4 +18,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
