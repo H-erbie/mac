@@ -154,7 +154,7 @@ const Page = () => {
           <div className="flex flex-col w-full lg:w-1/2">
 
           <p className="w-[90%] sm:w-2/4 mx-auto mt-7">
-                  Note: After clicking on "update user profile" you will be
+                  Note: After clicking on &apos;update user profile&apos; you will be
                   logged out and redirected to the homepage. Re-sign in with
                   updated credentials to access your account
                 </p>

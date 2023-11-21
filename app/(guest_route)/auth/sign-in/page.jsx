@@ -100,7 +100,7 @@ const Page = () => {
           sign in
         </Button>
         <p className="text-lg">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link href="/auth/sign-up">
             {" "}
             <Button variant="link" className="text-yellow-500  text-lg">

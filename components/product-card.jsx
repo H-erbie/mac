@@ -32,11 +32,11 @@ const ProductCard = ({ product }) => {
           <span className="line-through dark:text-gray-300 text-gray-600  text-sm">GHS 43.99</span>
         </p>
         <div className="flex gap-1 mt-1 lg:mt-0 mx-auto lg:justify-start justify-center lg:mx-0">
-            {rates.map((rate) => {
+            {rates.map((rate, index) => {
               let icon = "";
               if (rate == rates.length) icon = <IoIosStarHalf />;
               else icon = <IoIosStar />;
-              return <span className="text-yellow-600 text-sm">{icon}</span>;
+              return <span className="text-yellow-600 text-sm" key={index}>{icon}</span>;
             })}
           </div>
       </div>

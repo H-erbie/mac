@@ -61,11 +61,11 @@ let currentDate = `${day}-${month}-${year}`
 
       {/* ratings */}
       <div className="flex gap-2 mt-4 w-3/4 mx-auto lg:justify-start justify-center lg:mx-0">
-        {rates.map((rate) => {
+        {rates.map((rate, index) => {
           let icon = "";
           if (rate == rates.length) icon = <IoIosStarHalf />;
           else icon = <IoIosStar />;
-          return <span className="text-yellow-600 text-2xl">{icon}</span>;
+          return <span className="text-yellow-600 text-2xl" key={index}>{icon}</span>;
         })}
       </div>
 
@@ -139,11 +139,11 @@ let currentDate = `${day}-${month}-${year}`
             <h3 className="text-lg mx-auto  text-center lg:text-start w-3/4 font-medium">50 verified Ratings</h3>
             <p className="text-2xl  mx-auto lg:mx-0 lg:text-start  text-center font-semibold">4.5/5</p>
             <div className="flex gap-2 my-4 justify-center lg:justify-start">
-              {rates.map((rate) => {
+              {rates.map((rate, index) => {
                 let icon = "";
                 if (rate == rates.length) icon = <IoIosStarHalf />;
                 else icon = <IoIosStar />;
-                return <span className="text-yellow-600 text-2xl">{icon}</span>;
+                return <span className="text-yellow-600 text-2xl" key={index}>{icon}</span>;
               })}
             </div>
             <div className="border-t flex gap-3 flex-col w-[90%] sm:w-3/4 pt-4">
@@ -196,12 +196,12 @@ let currentDate = `${day}-${month}-${year}`
             <div className="border-y py-3 w-full sm:w-3/4">
             <div className="flex gap-x-5 items-center justify-between w-full">
               <div className="flex gap-2 ">
-                {rates.map((rate) => {
+                {rates.map((rate, index) => {
                   let icon = "";
                   if (rate == rates.length) icon = <IoIosStarHalf />;
                   else icon = <IoIosStar />;
                   return (
-                    <span className="text-yellow-600 text-lg sm:text-2xl">{icon}</span>
+                    <span className="text-yellow-600 text-lg sm:text-2xl" key={index}>{icon}</span>
                   );
                 })}
               </div>
@@ -214,12 +214,12 @@ let currentDate = `${day}-${month}-${year}`
             <div className="border-y py-3 w-full sm:w-3/4">
             <div className="flex gap-x-5 justify-between items-center w-full">
               <div className="flex gap-2 ">
-                {rates.map((rate) => {
+                {rates.map((rate, index) => {
                   let icon = "";
                   if (rate == rates.length) icon = <IoIosStarHalf />;
                   else icon = <IoIosStar />;
                   return (
-                    <span className="text-yellow-600 text-lg sm:text-2xl">{icon}</span>
+                    <span className="text-yellow-600 text-lg sm:text-2xl" key={index}>{icon}</span>
                   );
                 })}
               </div>
@@ -231,12 +231,12 @@ let currentDate = `${day}-${month}-${year}`
             <div className="border-y py-3 w-full sm:w-3/4">
             <div className="flex gap-x-5 justify-between items-center w-full">
               <div className="flex gap-2">
-                {rates.map((rate) => {
+                {rates.map((rate, index) => {
                   let icon = "";
                   if (rate == rates.length) icon = <IoIosStarHalf />;
                   else icon = <IoIosStar />;
                   return (
-                    <span className="text-yellow-600 text-lg sm:text-2xl">{icon}</span>
+                    <span className="text-yellow-600 text-lg sm:text-2xl" key={index}>{icon}</span>
                   );
                 })}
               </div>
@@ -248,12 +248,12 @@ let currentDate = `${day}-${month}-${year}`
             <div className="border-y py-3 w-full sm:w-3/4">
             <div className="flex gap-x-5 justify-between items-center w-full">
               <div className="flex gap-2 ">
-                {rates.map((rate) => {
+                {rates.map((rate, index) => {
                   let icon = "";
                   if (rate == rates.length) icon = <IoIosStarHalf />;
                   else icon = <IoIosStar />;
                   return (
-                    <span className="text-yellow-600 text-lg sm:text-2xl">{icon}</span>
+                    <span className="text-yellow-600 text-lg sm:text-2xl" key={index}>{icon}</span>
                   );
                 })}
               </div>

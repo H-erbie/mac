@@ -13,8 +13,8 @@ const Page = () => {
         <h2 className="text-3xl font-bold capitalize my-3">terms and conditions</h2>
 
         <p>
-          These Terms and Conditions (the "Terms") govern your access to and use
-          of our e-commerce website (the "Website").
+          These Terms and Conditions (the &apos;Terms&apos;) govern your access to and use
+          of our e-commerce website (the &apos;Website&apos;).
         </p>
         <h3 className="text-xl font-semibold capitalize my-1">
           Acceptance of the Terms
@@ -84,12 +84,12 @@ const Page = () => {
         {/*  */}
         <p>
           The Website and all of its content, including but not limited to
-          trademarks, copyrights, and trade secrets, are the property of Babygirl Company or its licensors. You may not use the Website's
+          trademarks, copyrights, and trade secrets, are the property of Babygirl Company or its licensors. You may not use the Website&apos;s
           intellectual property without our express written permission.
         </p>
         <h3 className="text-xl font-semibold capitalize my-1">Disclaimers</h3>
         <p className="font-medium">
-          THE WEBSITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. WE
+          THE WEBSITE IS PROVIDED ON AN &apos;AS IS&apos; AND "AS AVAILABLE" BASIS. WE
           MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,
           REGARDING THE WEBSITE OR ITS CONTENT. WE EXPRESSLY DISCLAIM ANY
           IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
