@@ -89,7 +89,7 @@ const Page = () => {
         </p>
         <h3 className="text-xl font-semibold capitalize my-1">Disclaimers</h3>
         <p className="font-medium">
-          THE WEBSITE IS PROVIDED ON AN &apos;AS IS&apos; AND "AS AVAILABLE" BASIS. WE
+          THE WEBSITE IS PROVIDED ON AN &apos;AS IS&apos; AND &apos;AS AVAILABLE&apos; BASIS. WE
           MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,
           REGARDING THE WEBSITE OR ITS CONTENT. WE EXPRESSLY DISCLAIM ANY
           IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
